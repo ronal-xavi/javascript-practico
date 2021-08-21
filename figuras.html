@@ -17,7 +17,7 @@
     </header>
     <section class="section">
         <div class="section__cuadrado">
-            <h2>Calcula el área y perimetro de unu cuadrado</h2>
+            <h2>Calcula el área y perimetro de un cuadrado</h2>
             <form>
                 <label for="inputCuadrado">Escribe cuanto mide cada lado de tu Cuadrado</label>
                 <input id="inputCuadrado" type="number" >
@@ -28,23 +28,27 @@
             </form>
         </div>
         <div class="section__triangulo">
-            <h2>Calcula el área y perimetro de unu cuadrado</h2>
+            <h2>Calcula el área y perimetro de un triangulo</h2>
             <form>
                 <label for="inputCuadrado">Escribe cuanto mide cada lado de tu Cuadrado</label>
-                <input id="inputCuadrado" type="number" >
+                <p>Lado 1 <input id="trianguloLado1" type="number" ></p>
+                <p>Lado 2 <input id="trianguloLado2" type="number" > </p>
+                <p>Base   <input id="trianguloBase" type="number" ></p>
+                <p>Altura <input id="trianguloAltura" type="number" ></p>
                 <div class="botones">
-                    <button type="button" onclick="calcularPerimetroCuadrado()" >Calcular perimetro</button>
-                    <button type="button" onclick="calcularAreaCuadrado()" >Calcular área</button>
+                    <button type="button" onclick="calcularPerimetroTriangulo()" >Calcular perimetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()" >Calcular área</button>
                 </div>
             </form>
         </div>
         <div class="section__circulo">
-            <h2>Calcula el área y perimetro de unu cuadrado</h2>
-            <form action="">
+            <h2>Calcula el área y perimetro de un circulo</h2>
+            <form>
                 <label for="inputCuadrado">Escribe cuanto mide cada lado de tu Cuadrado</label>
-                <input id="inputCuadrado" type="number" >
-                <button type="button" onclick="calcularPerimetroCuadrado()" >Calcular perimetro</button>
-                <button type="button" onclick="calcularAreaCuadrado()" >Calcular área</button>
+                <p>Radio <input id="circuloRadio" type="number" ></p>
+                <button type="button" onclick="calcularDiametroCirculo()" >Calcular Diametro</button>
+                <button type="button" onclick="calcularAreaCirculo()" >Calcular área</button>
+                <button type="button" onclick="calcularPerimetroCirculo()" >Calcular perimetro</button>
             </form>
         </div>
     </section>
